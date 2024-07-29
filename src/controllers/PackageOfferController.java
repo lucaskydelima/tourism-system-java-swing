@@ -9,10 +9,7 @@ import models.PackageOffer;
 import models.abstracts.Service;
 import views.panels.PackageOfferPanel;
 
-import javax.swing.*;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
 import java.util.stream.Stream;
 
 public class PackageOfferController {

@@ -1,11 +1,9 @@
 package controllers;
 
 import factories.PaymentStrategyFactory;
-import models.PackageOffer;
 import models.payment.PaymentStrategy;
 import views.panels.PaymentMethodPanel;
 
-import java.util.Optional;
 import java.util.stream.Stream;
 
 public class PaymentMethodController {
@@ -59,7 +57,7 @@ public class PaymentMethodController {
                 + TOTAL_PRICE_AFTER_DISCOUNT_LABEL + discountedPrice);
     }
 
-    public String getPaymentMethodSelection(){
+    public String getPaymentMethodSelection() {
         return paymentMethodPanel.getG2().getSelection().getActionCommand();
     }
 
